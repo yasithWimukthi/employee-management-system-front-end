@@ -1,0 +1,16 @@
+.top-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.top-nav-bar__list{
+    display: flex;
+    list-style: none;
+    width: auto;
+    margin-right: 50px;
+}
+
+.top-nav-bar__list li{
+    margin-right: 25px;
+}
