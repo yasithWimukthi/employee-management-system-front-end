@@ -14,3 +14,8 @@
 .top-nav-bar__list li{
     margin-right: 25px;
 }
+
+.login-input{
+    border-radius:20px;
+    height:40px;
+}
