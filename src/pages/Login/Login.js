@@ -1,5 +1,6 @@
 import react, {useState} from 'react';
-import { Button, Checkbox, Form, Input } from 'antd';
+import { MailOutlined,LockOutlined } from '@ant-design/icons';
+import { Button, Form, Input } from 'antd';
 
 const LoginPage = () => {
     const [loadings, setLoadings] = useState(true);
@@ -26,19 +27,28 @@ const LoginPage = () => {
                         onFinish={onFinish}
                         onFinishFailed={onFinishFailed}
                         autoComplete="off"
+                        className="login-form"
                     >
                         <Form.Item
                             name="email"
                             rules={[{ required: true, message: 'Please input your email!' }]}
                         >
-                            <Input placeholder="Email" className="login-input"/>
+                            <Input
+                                placeholder="Email"
+                                className="login-input"
+                                prefix={<MailOutlined />}
+                            />
                         </Form.Item>
 
                         <Form.Item
                             name="password"
                             rules={[{ required: true, message: 'Please input your password!' }]}
                         >
-                            <Input.Password placeholder="Password" className="login-input"/>
+                            <Input.Password
+                                placeholder="Password"
+                                className="login-input"
+                                prefix={<LockOutlined />}
+                            />
                         </Form.Item>
 
                         <Form.Item wrapperCol={{ offset: 0, span: 16 }} style={{textAlign: "center"}}>
