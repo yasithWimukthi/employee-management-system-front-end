@@ -18,4 +18,9 @@
 .login-input{
     border-radius:20px;
     height:40px;
+    background-color: #f5f5f5;
+}
+
+.login-form .ant-input{
+    background-color: #f5f5f5;
 }
