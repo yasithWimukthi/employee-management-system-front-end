@@ -1,0 +1,12 @@
+Index: .env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.env b/.env
+new file mode 100644
+--- /dev/null	(date 1654862551539)
++++ b/.env	(date 1654862551539)
+@@ -0,0 +1,1 @@
++REACT_APP_BASE_URL=http://localhost:4000
+\ No newline at end of file

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15bc390e-b0c9-4a97-ad23-62ea42ed95a0" name="Changes" comment="create update page" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/update-modal" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AD44nXkLPc58GfsSyT8j22yRBz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yasith wimukthi\Documents\derana assignment\employee-management-system-front-end\src\assets\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15bc390e-b0c9-4a97-ad23-62ea42ed95a0" name="Changes" comment="" />
+      <created>1654530677226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654530677226</updated>
+      <workItem from="1654530792115" duration="7631000" />
+      <workItem from="1654577845632" duration="1602000" />
+      <workItem from="1654879835667" duration="4086000" />
+    </task>
+    <task id="LOCAL-00001" summary="create top nav bar">
+      <created>1654534250747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654534250748</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create top nav bar">
+      <created>1654540174598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654540174598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create top nav bar">
+      <created>1654880811798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654880811798</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create redux store">
+      <created>1654880998417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654880998417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create redux store">
+      <created>1654881015476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654881015476</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create 404 page">
+      <created>1654881539807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654881539807</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create add modal">
+      <created>1654881661676</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654881661676</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create dashboard">
+      <created>1654881914018</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654881914018</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create dashboard">
+      <created>1654882065904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654882065904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create login">
+      <created>1654882329456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654882329456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create theme">
+      <created>1654882382371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654882382371</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create message component">
+      <created>1654883172121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654883172121</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create sign up page">
+      <created>1654883313028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654883313028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create update page">
+      <created>1654883408082</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654883408082</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create update page">
+      <created>1654883508508</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654883508508</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create top nav bar" />
+    <MESSAGE value="create redux store" />
+    <MESSAGE value="create 404 page" />
+    <MESSAGE value="create add modal" />
+    <MESSAGE value="create dashboard" />
+    <MESSAGE value="create login" />
+    <MESSAGE value="create theme" />
+    <MESSAGE value="create message component" />
+    <MESSAGE value="create sign up page" />
+    <MESSAGE value="create update page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create update page" />
+  </component>
+</project>
