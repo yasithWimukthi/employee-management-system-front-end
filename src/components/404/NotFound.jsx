@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import{ login} from '../../features/login/loginSlice';
 
+
 const NotFound = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();

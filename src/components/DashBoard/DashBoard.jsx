@@ -12,7 +12,7 @@ import Message from "../Message/Message";
 import {useDispatch} from 'react-redux';
 import {logout} from '../../features/login/loginSlice';
 import { useNavigate } from "react-router-dom";
-import Swal from 'sweetalert2'
+
 
 const initialValues = {
   isOpen: false,

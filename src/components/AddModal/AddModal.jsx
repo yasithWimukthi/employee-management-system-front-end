@@ -58,7 +58,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
     },
     address: {
       isError: false,
-      message: "Address cannot be empty  ! (use contrl + enter)",
+      message: "Address cannot be empty  ! (use ctrl + enter)",
       isTouched: false,
     },
     dept: {
@@ -81,6 +81,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
       selectedDesignation.length > 0
     ) {
       setIsLoading(true);
+      //ADD EMPLOYEE TO DATABASE
       fetch(`${process.env.REACT_APP_BASE_URL}/api/employee/add`, {
         method: "POST",
         body: JSON.stringify({
