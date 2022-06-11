@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15bc390e-b0c9-4a97-ad23-62ea42ed95a0" name="Changes" comment="create update page" />
+    <list default="true" id="12745ac5-5aa9-4c36-93cc-4b415e0e555b" name="Changes" comment="re-structure components">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_2022_11_30_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_2022_11_30_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +58,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="15bc390e-b0c9-4a97-ad23-62ea42ed95a0" name="Changes" comment="" />
+      <changelist id="12745ac5-5aa9-4c36-93cc-4b415e0e555b" name="Changes" comment="re-structure components" />
       <created>1654530677226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -62,6 +66,7 @@
       <workItem from="1654530792115" duration="7631000" />
       <workItem from="1654577845632" duration="1602000" />
       <workItem from="1654879835667" duration="4086000" />
+      <workItem from="1654926184752" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="create top nav bar">
       <created>1654534250747</created>

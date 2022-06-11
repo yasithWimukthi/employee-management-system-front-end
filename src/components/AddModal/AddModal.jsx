@@ -33,10 +33,10 @@ const style = {
   p: 4,
 };
 
-const deptsAndDesignations = {
-  HR: ["Manager", "Assistant"],
-  IT: ["Senior Software Engineer", "Associate", "Junior Developer"],
-};
+// const deptsAndDesignations = {
+//   HR: ["Manager", "Assistant"],
+//   IT: ["Senior Software Engineer", "Associate", "Junior Developer"],
+// };
 
 const AddModal = ({ open, dispatch, refresh }) => {
   const handleClose = () => dispatch({ type: actions.ADD_MODAL_TOGGLE });
@@ -45,6 +45,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
   const [selectedAddress, setSelectedAddress] = useState([]);
   const [selectedDept, setSelectedDept] = useState("");
   const [selectedDesignation, setSelectedDesignation] = useState("");
+  const [deptsAndDesignations, setDeptsAndDesignations] = useState([]);
 
   const [isLoading, setIsLoading] = useState(false);
   const [isMessage, setIsMessage] = useState(false);
@@ -118,7 +119,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
           ...prev,
           address: {
             isError: true,
-            message: "Address cannot be empty  ! (use contrl + enter)" ,
+            message: "Address cannot be empty  ! (use contrl + enter)",
             isTouched: true,
           },
         }));
@@ -193,12 +194,37 @@ const AddModal = ({ open, dispatch, refresh }) => {
         ...prev,
         phone: {
           isError: false,
-          message: "Phone number cannot be empty  ! (use contrl + enter)" ,
+          message: "Phone number cannot be empty  ! (use contrl + enter)",
           isTouched: true,
         },
       }));
     }
   }, [selectedPhones]);
+
+  useEffect(() => {
+    setIsLoading(true);
+    fetch(`${process.env.REACT_APP_BASE_URL}/api/admin/get-all`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.error) {
+        } else {
+          const details = {};
+          data.result.map((item) => {
+            details[item.name] = item.designation;
+            return item;
+          });
+
+          setDeptsAndDesignations(details);
+        }
+      })
+      .catch((err) => {})
+      .finally(() => setIsLoading(false));
+  }, []);
 
   const handleDeptBlur = () => {
     if (selectedDept.length <= 0) {
@@ -389,6 +415,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
               value={formik.values.bday}
               onChange={formik.handleChange}
               name="bday"
+              label='Birthday'
             />
 
             {formik.touched.bday && formik.errors.bday ? (
@@ -404,6 +431,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
               id="tags"
               name="phone"
               placeholder="Phone Number"
+              label='Phone Number'
               selectedItem={selectedPhones}
               setSelectedItem={setSelectedPhones}
             />
@@ -422,6 +450,7 @@ const AddModal = ({ open, dispatch, refresh }) => {
               placeholder="Address"
               selectedItem={selectedAddress}
               setSelectedItem={setSelectedAddress}
+              label='Address'
             />
             {errors.address.isError ? (
               <Box p="0.1rem" sx={{ color: "red" }}>

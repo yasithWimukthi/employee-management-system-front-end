@@ -10,6 +10,7 @@ import SignUp from "./components/SignUp/SignUp";
 const App = () => {
   const isLoggetIn = useSelector((state) => state.login.isLoggedIn);
 
+  // user can access below routes without login
   const loggedInRoutes = (
     <Routes>
       <Route path="/" element={<Login />} />
@@ -18,6 +19,7 @@ const App = () => {
     </Routes>
   );
 
+  // user can access below routes only if he is logged in
   const loggedOutRoutes = (
     <Routes>
       <Route path="/" element={<Login />} />

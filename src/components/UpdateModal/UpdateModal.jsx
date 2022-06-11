@@ -34,10 +34,10 @@ const actions = {
   ADD_MODAL_TOGGLE: "addmodal",
 };
 
-const deptsAndDesignations = {
-  HR: ["Manager", "Assistant"],
-  IT: ["Senior Software Engineer", "Associate", "Junior Developer"],
-};
+// const deptsAndDesignations = {
+//   HR: ["Manager", "Assistant"],
+//   IT: ["Senior Software Engineer", "Associate", "Junior Developer"],
+// };
 
 const UpdateModal = ({ open, dispatch, data ,refresh}) => {
   const handleClose = () => dispatch({ type: actions.TOGGLE });
@@ -50,6 +50,34 @@ const UpdateModal = ({ open, dispatch, data ,refresh}) => {
   const [isLoading, setIsLoading] = useState(false);
   const [isMessage, setIsMessage] = useState(false);
   const [message, setMessage] = useState("");
+
+  const [deptsAndDesignations, setDeptsAndDesignations] = useState([]);
+
+
+  useEffect(() => {
+    setIsLoading(true);
+    fetch(`${process.env.REACT_APP_BASE_URL}/api/admin/get-all`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.error) {
+        } else {
+          const details = {};
+          data.result.map((item) => {
+            details[item.name] = item.designation;
+            return item;
+          });
+
+          setDeptsAndDesignations(details);
+        }
+      })
+      .catch((err) => {})
+      .finally(() => setIsLoading(false));
+  }, []);
 
  
   const handleSubmit = (values) => {
@@ -222,6 +250,7 @@ const UpdateModal = ({ open, dispatch, data ,refresh}) => {
               value={formik.values.bday}
               onChange={formik.handleChange}
               name="birthday"
+              label='Birthday'
             />
 
             {formik.touched.bday && formik.errors.bday ? (
@@ -239,6 +268,7 @@ const UpdateModal = ({ open, dispatch, data ,refresh}) => {
               placeholder="Phone Number"
               selectedItem={selectedPhones}
               setSelectedItem={setSelectedPhones}
+              label='Phone Number'
             />
 
             <TagsInput
@@ -250,6 +280,7 @@ const UpdateModal = ({ open, dispatch, data ,refresh}) => {
               placeholder="Address"
               selectedItem={selectedAddress}
               setSelectedItem={setSelectedAddress}
+              label='Address'
             />
 
             <FormControl fullWidth size="small" sx={{ my: "0.5rem" }}>
