@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12745ac5-5aa9-4c36-93cc-4b415e0e555b" name="Changes" comment="re-structure components">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_2022_11_30_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_2022_11_30_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,7 @@
       <workItem from="1654577845632" duration="1602000" />
       <workItem from="1654879835667" duration="4086000" />
       <workItem from="1654926184752" duration="1356000" />
+      <workItem from="1654936144849" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="create top nav bar">
       <created>1654534250747</created>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654883508508</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="re-structure components">
+      <created>1654936330098</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654936330098</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,7 @@
     <MESSAGE value="create message component" />
     <MESSAGE value="create sign up page" />
     <MESSAGE value="create update page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create update page" />
+    <MESSAGE value="re-structure components" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-structure components" />
   </component>
 </project>
