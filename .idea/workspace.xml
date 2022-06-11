@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="12745ac5-5aa9-4c36-93cc-4b415e0e555b" name="Changes" comment="re-structure components">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theme/Theme.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theme/Theme.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/404/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/404/NotFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddModal/AddModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddModal/AddModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TagInput/TagInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TagInput/TagInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UpdateModal/UpdateModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UpdateModal/UpdateModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/loginSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/loginSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +80,7 @@
       <workItem from="1654879835667" duration="4086000" />
       <workItem from="1654926184752" duration="1356000" />
       <workItem from="1654936144849" duration="2446000" />
+      <workItem from="1654970070043" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="create top nav bar">
       <created>1654534250747</created>
@@ -194,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654938598635</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="re-structure components">
+      <created>1654970281819</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654970281819</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

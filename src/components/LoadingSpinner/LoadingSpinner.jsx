@@ -1,7 +1,12 @@
 import './LoadingSpinner.css'
-const LoadingSpinner = ()=>{
+
+const LoadingSpinner = () => {
     return <div className='loading-backdrop'>
-        <div className="lds-facebook"><div></div><div></div><div></div></div>
+        <div className="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 }
 

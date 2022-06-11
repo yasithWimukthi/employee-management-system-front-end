@@ -8,7 +8,7 @@ import{ login} from '../../features/login/loginSlice';
 
 const NotFound = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+    const dispatch = useDispatch();
 
   useEffect(() => {
     const loginData = JSON.parse(localStorage.getItem("login"));
